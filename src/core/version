@@ -3,8 +3,8 @@
 # Set up the custom version strings here.
 
 export V1_VERSION=${V1_VERSION:-$(git rev-parse --short HEAD)}
-export MARLIN_VERSION="${MARLIN_VERSION:-Custom}"
-export CONFIG_NAME="${CONFIG_NAME:-ConfigUnknown}"
+export MARLIN_VERSION="${MARLIN_VERSION:2.1.2.1-Custom}"
+export CONFIG_NAME="${CONFIG_NAME:EL-TORO-ConfigUnknown}"
 
 # Let's get a number for the version from the build, so we can try some basic maths.
 export MARLIN_CONFIG_VERSION=`grep CONFIGURATION_H_VERSION ${MARLINDIR}/Marlin/Configuration.h | cut -d" " -f3`
