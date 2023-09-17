@@ -12,7 +12,7 @@ on:
     - main
     paths-ignore:
     - src/configs/V1*Archim*
-    # - src/configs/V1*Skr*
+    - src/configs/V1*Skr*
     - src/configs/V1*Rambo*
     - '**/*.md'
   release:
@@ -43,7 +43,6 @@ jobs:
         - V1CNC_Ramps
         - V1CNC_Ramps_Dual
         - V1CNC_Ramps_DualLR
-        - V1CNC_SkrTurbo_Dual_2209
 
     steps:
 
