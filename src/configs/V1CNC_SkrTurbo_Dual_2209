@@ -11,7 +11,7 @@ $CFGDIR/common/cnc-config
 $CFGDIR/boards/skr_turbo_1p4
 $CFGDIR/accessories/dummy-extruder
 $CFGDIR/accessories/tmc2209
-$CFGDIR/accessories/reprap_discount_full_graphic_lcd
+$CFGDIR/accessories/mks12864-mini-v3
 $CFGDIR/accessories/dual-drivers-on-xy
 $CFGDIR/boards/skr_turbo_1p4_dual
 
