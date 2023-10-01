@@ -20,6 +20,6 @@ opt_set X2_DRIVER_TYPE "TMC2209"
 opt_set Y2_DRIVER_TYPE "TMC2209"
 
 opt_set X_BED_SIZE "490"
-opt_set Y_BED_SIZE "700"
+opt_set Y_BED_SIZE "590"
 
 export PLATFORMIO_ENV=LPC1769
